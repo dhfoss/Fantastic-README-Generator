@@ -2,7 +2,7 @@
 function generateMarkdown(data) {
   return `# ${data.title}\n
 ## Table of Contents
-[Description](https://github.com/${data.github}/README.md/#description)  
+[Description](https://github.com/${data.github}/${data.title}/#description)  
 [Installation](https://github.com/${data.github}/${data.title}/#installation)  
 [Usage](https://github.com/${data.github}/${data.title}/#usage)  
 [License](https://github.com/${data.github}/${data.title}/#license)  

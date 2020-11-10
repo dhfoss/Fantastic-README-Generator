@@ -1,7 +1,7 @@
 # Fantastic-README-Generator
 
 ## Table of Contents
-[Description](https://github.com/dhfoss/README.md/#description)  
+[Description](https://github.com/dhfoss/Fantastic-README-Generator/#description)  
 [Installation](https://github.com/dhfoss/Fantastic-README-Generator/#installation)  
 [Usage](https://github.com/dhfoss/Fantastic-README-Generator/#usage)  
 [License](https://github.com/dhfoss/Fantastic-README-Generator/#license)  
@@ -10,26 +10,26 @@
 [Questions](https://github.com/dhfoss/Fantastic-README-Generator/#questions)  
 ### Description
 
-asdf
+Here is the Description. It's pretty cool
 
 ### Installation
-asdf
+Run npm install and that's it
 
 ### Usage
-asdf
+Run node index.js and answer the questions
 
 ### License
 1
 
 ### Contributing
-asdf
+Don't contribute. It's already Fantastic.
 
 ### Tests
-asdf
+No tests yet.
 
 ### Questions
 For questions contact me at:
 
-Email: asdf
+Email: dhfoss89@gmail.com
 
 https://github.com/dhfoss
