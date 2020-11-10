@@ -27,9 +27,10 @@ const questions = [
     message: "What are the instructions for using your project?"
 },
 {
-    type: "input",
+    type: "list",
     name: "license",
-    message: "Enter in your license information for your project."
+    message: "Select the license for your project.",
+    choices: ["1", "2", "3", "4"]
 },
 {
     type: "input",
@@ -64,13 +65,13 @@ function init() {
 // function call to initialize program
 init()
     .then((answers) => {
-        console.log(answers);
         const markdown = generateMarkdown(answers);
+
         return writeFileAsync("README.md", markdown);
     })
     .then(function() {
         console.log("Successfully wrote README file");
     })
-    .catch(function(err) {
+    .catch(err => {
         console.log(err);
-    })
+    });
