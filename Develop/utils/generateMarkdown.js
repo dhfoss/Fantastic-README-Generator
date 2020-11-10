@@ -2,13 +2,13 @@
 function generateMarkdown(data) {
   return `# ${data.title}\n
 ## Table of Contents
-[Description]()  
-[Installation]()  
-[Usage]()  
-[License]()  
-[Contributing]()  
-[Tests]()  
-[Questions]()  
+[Description](https://github.com/${data.github}/README.md/#description)  
+[Installation](https://github.com/${data.github}/${data.title}/#installation)  
+[Usage](https://github.com/${data.github}/${data.title}/#usage)  
+[License](https://github.com/${data.github}/${data.title}/#license)  
+[Contributing](https://github.com/${data.github}/${data.title}/#contributing)  
+[Tests](https://github.com/${data.github}/${data.title}/#tests)  
+[Questions](https://github.com/${data.github}/${data.title}/#questions)  
 ### Description\n
 ${data.description}\n
 ### Installation
