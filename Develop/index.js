@@ -30,7 +30,7 @@ const questions = [
     type: "list",
     name: "license",
     message: "Select the license for your project.",
-    choices: ["1", "2", "3", "4"]
+    choices: ["Apache", "Boost", "BSD", "Creative Commons"]
 },
 {
     type: "input",

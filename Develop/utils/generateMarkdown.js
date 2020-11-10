@@ -1,6 +1,12 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
+  let license;
+  if (data.license === "Apache") {
+    license = "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
+  }
+
   return `# ${data.title}\n
+${license}  
 ## Table of Contents
 [Description](https://github.com/${data.github}/${data.title}/#description)  
 [Installation](https://github.com/${data.github}/${data.title}/#installation)  
@@ -16,7 +22,7 @@ ${data.installation}\n
 ### Usage
 ${data.usage}\n
 ### License
-${data.license}\n
+This project is licensed under the ${data.license} License.\n
 ### Contributing
 ${data.contributing}\n
 ### Tests

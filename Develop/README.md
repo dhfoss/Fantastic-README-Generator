@@ -1,5 +1,6 @@
 # Fantastic-README-Generator
 
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)  
 ## Table of Contents
 [Description](https://github.com/dhfoss/Fantastic-README-Generator/#description)  
 [Installation](https://github.com/dhfoss/Fantastic-README-Generator/#installation)  
@@ -10,26 +11,26 @@
 [Questions](https://github.com/dhfoss/Fantastic-README-Generator/#questions)  
 ### Description
 
-Here is the Description. It's pretty cool
+Description
 
 ### Installation
-Run npm install and that's it
+Installation
 
 ### Usage
-Run node index.js and answer the questions
+Usage
 
 ### License
-1
+This project is licensed under the Apache License.
 
 ### Contributing
-Don't contribute. It's already Fantastic.
+Contributing
 
 ### Tests
-No tests yet.
+Tests
 
 ### Questions
 For questions contact me at:
 
-Email: dhfoss89@gmail.com
+Email: dhfoss89@gmail.co
 
 https://github.com/dhfoss
